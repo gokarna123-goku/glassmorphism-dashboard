@@ -12,8 +12,9 @@ function App() {
         <RootLayout>
           {/* Background Img */}
           <img src={BgImg} alt="" className="w-full h-full object-cover object-center absolute top-0 left-0" />
+          <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-tr from-neutral-950/40 to-neutral-950/40"></div>
           {/* Layout section */}
-          <div className="z-50 w-full flex items-center gap-10">
+          <div className="z-50 w-full flex items-center gap-10 flex-wrap p-4">
             {/* Navbar */}
             <Navbar />
 
