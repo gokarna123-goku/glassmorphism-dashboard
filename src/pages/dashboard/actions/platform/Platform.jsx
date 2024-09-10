@@ -12,6 +12,7 @@ const COLORS = ['#4285F4', '#5864A6', '#f26d21'];
 const Platform = () => {
     return (
         <div className="w-full bg-neutral-950/15 border border-neutral-900/20 rounded-xl p-4 space-y-4">
+
             <div className="w-full flex items-center justify-between">
                 <h1 className="text-lg text-neutral-100 font-medium">
                     Interview Platforms
@@ -35,6 +36,7 @@ const Platform = () => {
                         </div>
                     ))}
                 </div>
+
                 <div className="flex-1 flex justify-end">
                     <PieChart width={200} height={150}>
                         <Pie
@@ -54,8 +56,6 @@ const Platform = () => {
                     </PieChart>
                 </div>
             </div>
-
-
         </div>
     )
 }
